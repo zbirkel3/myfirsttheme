@@ -9,3 +9,49 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 Text Domain: twentyeleven
 */
+
+#wrapper {
+	width: 940px;
+	margin:0px auto;
+}
+
+
+.alignright{
+	float: right;
+	margin-left: 0px 0px 8px 8px;
+}
+
+.alignleft{
+	float:left;
+	margin: 0px 8px 8px 0px;
+}
+
+header{
+	background-image: -webkit-gradient(linear,0% 0%, 100% 100%, from(#fff), to(#696));
+}
+
+nav {
+	background-color: #000;
+}
+
+nav ul {
+	list-style: none;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+}
+nav ul li {
+	float: left;
+}
+
+nav ul li a{ 
+	display: block;
+	color:#fff;
+	font-size: 20px;
+	padding: 4px 20px 4px 20px;
+}
+
+nav ul li a:hover{
+	background: #fff;
+	color: #000;
+}
