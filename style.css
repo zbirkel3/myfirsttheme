@@ -15,6 +15,24 @@ Text Domain: twentyeleven
 	margin:0px auto;
 }
 
+.search-results ul li {
+	line-height: 30px;
+}
+
+.search-results ul li a{
+	font-size: 30px;
+	color: #666;
+	line-height: 30px;
+}
+
+.meta {
+	color: #666;
+	margin: 6px 0px ;
+}
+
+.meta span{
+	margin-right: 25px; 
+}
 
 .alignright{
 	float: right;
@@ -37,7 +55,7 @@ nav {
 nav ul {
 	list-style: none;
 	overflow: auto;
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 }
 nav ul li {
