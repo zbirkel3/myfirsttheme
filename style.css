@@ -23,8 +23,15 @@ Text Domain: twentyeleven
 	font-size: 30px;
 	color: #666;
 	line-height: 30px;
+	width:100%;
+	-webkit-transition:-webkit-transform 0.3s;
 }
-
+	
+.search-results ul li:hover	a {
+	/*width:90%;*/
+	-webkit-transform:scale(1.1,1.1);
+}		
+	
 .meta {
 	color: #666;
 	margin: 6px 0px ;
@@ -72,4 +79,14 @@ nav ul li a{
 nav ul li a:hover{
 	background: #fff;
 	color: #000;
+}
+
+.post {
+	-webkit-transition:width 85% 3s;
+	border-bottom: 1px solid #696;
+}
+
+.post:hover {
+	width: 90%;
+	
 }
