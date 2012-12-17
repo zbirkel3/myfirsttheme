@@ -90,3 +90,12 @@ nav ul li a:hover{
 	width: 90%;
 	
 }
+
+#main.row.span9{
+	-webkit-transition: background-color 10s;
+	
+}
+
+.highlight {
+	background-color: #EDE8B2; 
+}
