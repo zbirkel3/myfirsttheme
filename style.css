@@ -79,6 +79,7 @@ nav ul li a{
 nav ul li a:hover{
 	background: #fff;
 	color: #000;
+	text-decoration: none;
 }
 
 .post {
@@ -97,5 +98,5 @@ nav ul li a:hover{
 }
 
 .highlight {
-	background-color: #EDE8B2; 
+	background-color: #F2F0FF; 
 }
