@@ -10,10 +10,15 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 Text Domain: twentyeleven
 */
 
+body {
+	padding-top:40px;
+}
+
 #wrapper {
 	width: 940px;
 	margin:0px auto;
 }
+
 
 .search-results ul li {
 	line-height: 30px;
@@ -55,14 +60,20 @@ header{
 	background-image: -webkit-gradient(linear,0% 0%, 100% 100%, from(#fff), to(#696));
 }
 
+header h1{
+	text-align: center;
+	color: whiteSmoke;
+}
+
 nav {
 	background-color: #000;
+	z-index:1000;
 }
 
 nav ul {
 	list-style: none;
 	overflow: auto;
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 }
 nav ul li {
@@ -73,12 +84,12 @@ nav ul li a{
 	display: block;
 	color:#fff;
 	font-size: 20px;
-	padding: 4px 20px 4px 20px;
+	padding: 10px 20px 10px 20px;
 }
 
 nav ul li a:hover{
 	background: #fff;
-	color: #000;
+	color: #000	;
 	text-decoration: none;
 }
 
@@ -99,4 +110,22 @@ nav ul li a:hover{
 
 .highlight {
 	background-color: #F2F0FF; 
+}
+
+nav#primary-nav.affix{
+	width:940px;
+	top:0px;
+}
+
+/*phone styles*/
+
+@media (max-width: 480px){
+	body {
+		background-color: #D6E;
+		padding 0px;
+	}
+	#wrapper {
+	width: 100%;
+	}
+	
 }
