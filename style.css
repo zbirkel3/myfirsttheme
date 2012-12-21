@@ -57,7 +57,7 @@ body {
 }
 
 header{
-	background-image: -webkit-gradient(linear,0% 0%, 100% 100%, from(#fff), to(#696));
+	background-image: -webkit-gradient(linear,0% 0%, 100% 100%, from(#5EF), to(#210))
 }
 
 header h1{
